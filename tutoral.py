@@ -15,3 +15,5 @@ try:
 except psycopg2.Error as e:
     print("데이터베이스 연결 중 오류가 발생했습니다.")
     print(e)
+
+## 실제로 올라가면 안됨 .env파일이나 gitignore 등 public에 올라가면 위험
